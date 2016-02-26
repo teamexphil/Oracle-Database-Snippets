@@ -1,0 +1,9 @@
+-- 
+drop table customers;
+create table customers(cust_id number, name varchar2(50), interest varchar2(50));
+
+insert into customers values(1, 'Phil', 'Kayaking');
+insert into customers values(2, 'Meg', 'Baking');
+insert into customers values(3, 'Arran', 'Building');
+insert into customers values(4, 'Nicola', 'Soft Kittens');
+commit;
